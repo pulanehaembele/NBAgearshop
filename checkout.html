@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout - NBA GearShop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="java.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>NBA GearShop</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="checkout.html">Cart</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Your Shopping Cart</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Los Angeles Lakers Jersey</td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>P1120</td>
+            <td>P1120</td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>Classic Retro NBA Jersey</td>
+            <td><input type="number" value="2" min="1" /></td>
+            <td>P1190</td>
+            <td>P2380</td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>NBA Team Cap</td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>P230</td>
+            <td>P230</td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>New Arrivals Hoodie</td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>P985</td>
+            <td>P985</td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>NBA Socks Pack</td>
+            <td><input type="number" value="3" min="1" /></td>
+            <td>P145</td>
+            <td>P435</td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>Player Wristband</td>
+            <td><input type="number" value="2" min="1" /></td>
+            <td>P112</td>
+            <td>P224</td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr class="total-row">
+            <td colspan="3">Grand Total:</td>
+            <td colspan="2">P5'374</td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="text-align: center; margin: 30px;">
+         <button style="padding: 15px 30px; font-size: 1.2em; background-color: #00509e; color: white; border: none; border-radius: 6px; cursor: pointer;" id="checkout-btn">
+          Proceed to Checkout
+         </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NBA Gear Shop. All rights reserved.</p>
+  </footer>
+    <script src="java.js"></script>
+</body>
+</html>
+
